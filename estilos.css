@@ -24,10 +24,18 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     padding: 10px;
     box-sizing: border-box;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 h1, h2 {
