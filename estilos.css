@@ -49,10 +49,10 @@ h1 {
 
 h2 {
     font-size: 2.5vmin;
+    margin-bottom: 3vmin;
 }
 
 i {
-    margin-top: 2vh;
     margin-left: 1vw;
     margin-right: 1vw;
     transition: transform .2s;
