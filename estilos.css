@@ -10,7 +10,7 @@ body {
 }
 
 .fundo {
-    background-image: linear-gradient(to bottom right, darkslateblue, aquamarine);
+    background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
     background-repeat: no-repeat;
     background-size: auto;
     width: 100%;
@@ -45,7 +45,7 @@ body {
     justify-content: start;
     align-items: center;
     background-color: whitesmoke;
-    margin-bottom: 1.5vh;
+    margin-bottom: 3vh;
 }
 
 .icones {
@@ -81,9 +81,9 @@ a {
 }
 
 .icone_lattes, .fa {
-    height: 5vmin;
+    height: 7vmin;
     transition: transform .2s;
-    font-size: 5vmin;
+    font-size: 7vmin;
     color: whitesmoke;
 }
 
@@ -122,9 +122,21 @@ a {
     background-color: whitesmoke;
 }
 
-@media only screen and (max-width: 270px) {
+@media only screen and (max-width: 550px) {
     .topo {
         flex-direction: column;
         justify-content: center;
+    }
+    .menu {
+        flex-direction: column;
+        justify-content: center;
+        height: 24vh;
+    }
+    .imagens {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .icones {
+        margin-top: 2vh;
     }
   }
