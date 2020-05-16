@@ -105,6 +105,7 @@ a {
 
 .abas a {
     margin-top: 1.5vh;
+    text-decoration: none;
 }
 
 .abas:hover {
