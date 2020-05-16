@@ -18,7 +18,6 @@
 .cartao {
     width: 40vw;
     height: 30vh;
-    border: 1px solid gray;
     background-color: #FFDEAD;
     box-shadow: 5px 5px 9px #222;
     display: flex;
@@ -27,6 +26,7 @@
     flex-direction: column;
     padding: 10px;
     box-sizing: border-box;
+    border-radius: 12px;
 }
 
 .icones {
@@ -52,20 +52,56 @@ h2 {
     margin-bottom: 3vmin;
 }
 
-i {
+a {
+    color: inherit;
     margin-left: 1vw;
     margin-right: 1vw;
+}
+
+.icone_lattes, .fa {
+    height: 5vmin;
     transition: transform .2s;
-}
-
-i:hover {
-    transform: scale(1.2);
-}
-
-.fa {
     font-size: 5vmin;
 }
 
-a {
-    color: inherit;
+.icone_lattes:hover, i:hover {
+    transform: scale(1.2);
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.abas {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: 'Roboto', sans-serif;
+    transition: transform .2s;
+    text-align: center;
+}
+
+.abas:hover {
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 270px) {
+    nav {
+      flex-direction: column;
+    }
+    .icone_lattes, .fa {
+        height: 4vmin;
+        font-size: 4vmin;
+    }
+    h1 {
+        font-size: 3vmin;
+        margin-bottom: 3vmin;
+    }
+    
+    h2 {
+        font-size: 2vmin;
+        margin-bottom: 3vmin;
+    }
+  }
