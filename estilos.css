@@ -11,8 +11,10 @@ body {
 
 .fundo {
     background-image: linear-gradient(to bottom right, darkslateblue, aquamarine);
+    background-repeat: no-repeat;
+    background-size: auto;
     width: 100%;
-    height: 94%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-content: flex-start;
@@ -20,27 +22,30 @@ body {
     flex-wrap: wrap;
 }
 
-nav {
+.topo {
     width: 100%;
-    height: 6%;
+    height: 20vh;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
+    background-color: #222;
 }
 
-.cartao {
-    width: 40vw;
-    height: 30vh;
-    background-color: #FFDEAD;
-    box-shadow: 5px 5px 9px #333;
+.identificacao {
     display: flex;
-    justify-content: center;
-    align-content: center;
     flex-direction: column;
-    padding: 10px;
-    box-sizing: border-box;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    justify-content: space-around;
+}
+
+.menu {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-bottom: 1.5vh;
 }
 
 .icones {
@@ -54,16 +59,19 @@ nav {
 h1, h2 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    color: whitesmoke;
 }
 
 h1 {
     font-size: 4.5vmin;
-    margin-bottom: 3vmin;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 h2 {
     font-size: 2.5vmin;
-    margin-bottom: 3vmin;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 a {
@@ -76,6 +84,7 @@ a {
     height: 5vmin;
     transition: transform .2s;
     font-size: 5vmin;
+    color: whitesmoke;
 }
 
 .icone_lattes:hover, i:hover {
@@ -83,23 +92,29 @@ a {
 }
 
 .abas {
-    padding-top: 0.7vh;
-    padding-bottom: 0.7vh;
     padding-left: 2vw;
     padding-right: 2vw;
     font-family: 'Roboto', sans-serif;
     font-size: 3.5vmin;
     transition: transform .2s;
     text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    display: flex;
+}
+
+.abas a {
+    margin-top: 1.5vh;
 }
 
 .abas:hover {
-    transform: scale(1.2);
+    background-color: #222;
+    color: whitesmoke;
 }
 
 .imagens img {
     width: 33%;
-    padding: 2px;
+    padding-top: 0.6vh;
     box-sizing: border-box;
 }
 
@@ -108,27 +123,8 @@ a {
 }
 
 @media only screen and (max-width: 270px) {
-    nav {
-      flex-direction: column;
-      height: 18%;
-    }
-    .imagens {
-        display: flex;
+    .topo {
         flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-      }
-    .icone_lattes, .fa {
-        height: 4vmin;
-        font-size: 4vmin;
-    }
-    h1 {
-        font-size: 3vmin;
-        margin-bottom: 3vmin;
-    }
-    
-    h2 {
-        font-size: 2vmin;
-        margin-bottom: 3vmin;
+        justify-content: center;
     }
   }
