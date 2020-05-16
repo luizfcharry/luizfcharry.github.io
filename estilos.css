@@ -17,6 +17,7 @@
 
 .cartao {
     width: 65vw;
+    min-height: 150px;
     height: 40vh;
     border: 1px solid gray;
     background-color: #FFDEAD;
