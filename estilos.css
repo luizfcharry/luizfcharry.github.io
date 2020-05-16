@@ -10,7 +10,7 @@ body {
 }
 
 .fundo {
-    background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+    background-image: linear-gradient(to bottom right, #222, #203a43, darkcyan); 
     background-repeat: no-repeat;
     background-size: auto;
     width: 100%;
@@ -89,6 +89,7 @@ a {
 
 .icone_lattes:hover, i:hover {
     transform: scale(1.2);
+    text-shadow: 0px 0px 8px darkcyan;
 }
 
 .abas {
@@ -113,6 +114,9 @@ a {
     color: whitesmoke;
 }
 
+.abas:active {
+    background-color: darkcyan;
+}
 .imagens img {
     width: 33%;
     padding-top: 0.6vh;
