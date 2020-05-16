@@ -24,8 +24,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -34,7 +33,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -44,8 +43,8 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 5vmin;
-    margin-bottom: 4vmin;
+    font-size: 4.5vmin;
+    margin-bottom: 3vmin;
 }
 
 h2 {
@@ -64,7 +63,7 @@ i:hover {
 }
 
 .fa {
-    font-size: 6vmin;
+    font-size: 5vmin;
 }
 
 a {
