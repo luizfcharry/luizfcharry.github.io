@@ -145,12 +145,14 @@ a {
 }
 .imagens img {
     width: 33%;
-    padding-top: 0.6vh;
+    padding: 0.6vh;
     box-sizing: border-box;
 }
 
 .imagens {
     background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
 }
 
 .artigo {
@@ -198,10 +200,14 @@ a {
     }
     .icones {
         margin-top: 2vh;
+        margin-bottom: 2vh;
     }
     .artigo {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .imagens img {
+        width: 100%;
     }
   }
