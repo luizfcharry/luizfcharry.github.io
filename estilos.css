@@ -210,4 +210,7 @@ a {
     .imagens img {
         width: 100%;
     }
+    .principal {
+        width: 90%;
+    }
   }
