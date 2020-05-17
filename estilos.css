@@ -170,8 +170,8 @@ a {
 }
 
 .miniatura_artigo {
-    height: 25vh;
-    width: 35vh;
+    height: 25vmin;
+    width: 37.5vmin;
 }
 
 @media only screen and (max-width: 550px) {
@@ -190,5 +190,10 @@ a {
     }
     .icones {
         margin-top: 2vh;
+    }
+    .artigo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
   }
