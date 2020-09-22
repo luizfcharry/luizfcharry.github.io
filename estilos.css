@@ -188,7 +188,7 @@ a {
     .abas {
         font-size: 2vmin;
     }
-    h1 {
+    h1 {1.5
         font-size: 3vmin;
     }
     
@@ -201,11 +201,12 @@ a {
     .topo {
         flex-direction: column;
         justify-content: center;
+        height: 40vmin;
     }
     .menu {
         flex-direction: column;
         justify-content: center;
-        height: 17vw;
+        height: 75vmin;
     }
     .imagens {
         flex-direction: column;
@@ -226,4 +227,18 @@ a {
     .principal {
         width: 90%;
     }
+    .abas {
+        font-size: 8vmin;
+        height: 10vmin;
+        margin-top: 2vmin;
+        margin-bottom: 2vmin;
+    }
+    h1 {
+        font-size: 5vmin;
+    }
+    
+    h2 {
+        font-size: 3vmin;
+    }
+  }
   }
