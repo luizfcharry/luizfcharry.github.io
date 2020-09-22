@@ -228,17 +228,19 @@ a {
         width: 90%;
     }
     .abas {
-        font-size: 8vmin;
+        font-size: 6.5vmin;
         height: 10vmin;
         margin-top: 2vmin;
         margin-bottom: 2vmin;
     }
     h1 {
-        font-size: 5vmin;
+        font-size: 7vmin;
+        margin-bottom: 3vmin;
     }
     
     h2 {
-        font-size: 3vmin;
+        font-size: 4vmin;
+        margin-bottom: 2vmin;
     }
   }
   }
