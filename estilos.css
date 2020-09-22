@@ -242,4 +242,10 @@ a {
         font-size: 4vmin;
         margin-bottom: 2vmin;
     }
+    h3 {
+        font-size: 6vmin;
+        }
+    .principal p {
+        font-size: 5vmin;
+    }
   }
